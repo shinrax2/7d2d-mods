@@ -1,0 +1,6 @@
+<configs>
+	<!-- open time -->
+	<set xpath="/traders/trader_info[@id='1']/@open_time">0:01</set>
+	<!-- close time -->
+	<set xpath="/traders/trader_info[@id='1']/@close_time">23:59</set>
+</configs>

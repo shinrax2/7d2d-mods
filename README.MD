@@ -19,4 +19,4 @@ reduces auger and chainsaw noises greatly
 # SX2-MoreAnimalSpawns
 for alpha 17
 
-double the "friendlyAnimals"(boars,rabbits,chickens, wolfs, bears, deers) spawns
+doubles the "friendlyAnimals"(boars,rabbits,chickens, wolfs, bears, deers) spawns

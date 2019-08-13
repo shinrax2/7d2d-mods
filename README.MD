@@ -2,12 +2,12 @@
 ---
 
 # SX2-2PPLU
-for alpha 17 
+for alpha 17
 
 grants 2 perkpoints per level up
 
 # SX2-TraderAlwaysOpen
-for alpha 17 
+for alpha 17
 
 trader is always open (technically closes 23:59 and opens 00:01)
 

@@ -20,3 +20,8 @@ reduces auger and chainsaw noises greatly
 for alpha 17
 
 double the "friendlyAnimals"(boars,rabbits,chickens, wolfs, bears, deers) spawns
+
+# SX2-BiggerPowerToolTank
+for alpha 17
+
+Increases tank (magazine size) of the auger and chainsaw

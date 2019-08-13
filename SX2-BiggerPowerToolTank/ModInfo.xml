@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="SX2-2PPLU" />
-		<Description value="2 Perkpoint per Level up" />
+		<Name value="SX2-BiggerPowerToolTanks" />
+		<Description value="Increases tank (magazine size) of the auger and chainsaw" />
 		<Author value="shinrax2" />
 		<Version value="1.0" />
 		<Website value="https://github.com/shinrax2/7d2d-mods" />

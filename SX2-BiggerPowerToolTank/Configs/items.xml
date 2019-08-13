@@ -1,0 +1,4 @@
+<configs>
+	<set xpath="/items/item[@name='meleeToolAuger']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">600</set> <!-- default: 200 -->
+	<set xpath="/items/item[@name='meleeToolChainsaw']/effect_group[@name='Base Effects']/passive_effect[@name='MagazineSize']/@value">600</set> <!-- default: 200 -->
+</configs>

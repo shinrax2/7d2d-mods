@@ -1,7 +1,0 @@
-<configs>
-	<!-- auger volume -->
-	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/Noise/@volume">10</set> <!-- default: 60 -->
-	<!-- chainsaw volume -->
-	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/Noise/@volume">10</set> <!-- default: 60 -->
-	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']/Noise/@volume">10</set> <!-- default: 60 -->
-</configs>

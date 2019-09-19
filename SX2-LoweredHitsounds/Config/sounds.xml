@@ -1,0 +1,20 @@
+<configs>
+	<!-- metal hits metal -->
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitmetal']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitmetal1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitmetal']/AudioClip[2]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitmetal2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitmetal']/AudioClip[3]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitmetal3</set>
+	<!-- metal hits wood -->
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitwood']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitwood1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitwood']/AudioClip[2]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitwood2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitwood']/AudioClip[3]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitwood3</set>
+	<!-- metal hits stone -->
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitstone']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitstone1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitstone']/AudioClip[2]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitstone2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='metalhitstone']/AudioClip[3]/@ClipName">#@modfolder:Resources/LH.unity3d?metalhitstone3</set>
+	<!-- stone hits stone -->
+	<set xpath="/Sounds/SoundDataNode[@name='stonehitstone']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?stonehitstone1</set>
+	<!-- stone hits wood -->
+	<set xpath="/Sounds/SoundDataNode[@name='stonehitwood']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?stonehitwood1</set>
+	<!-- stone hits metal -->
+	<set xpath="/Sounds/SoundDataNode[@name='stonehitmetal']/AudioClip[1]/@ClipName">#@modfolder:Resources/LH.unity3d?stonehitmetal1</set>
+</configs>

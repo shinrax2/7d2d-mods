@@ -1,0 +1,20 @@
+<configs>
+	<!-- auger -->
+	<set xpath="/Sounds/SoundDataNode[@name='auger_empty']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_empty</set>
+	<set xpath="/Sounds/SoundDataNode[@name='auger_equip']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_equip</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Idle']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_idle</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_fire_start</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[2]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_fire_lp</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Fire_Start']/AudioClip[3]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_fire_end</set>
+	<set xpath="/Sounds/SoundDataNode[@name='Auger_Reload']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?auger_reload</set>
+	<!-- chainsaw -->
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_empty']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_empty</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_equip']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_equip</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_idle']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_idle</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_fire_start</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/AudioClip[2]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_fire_lp</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_start']/AudioClip[3]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_fire_end</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_fire_rev1</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_fire_rev']/AudioClip[2]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_fire_rev2</set>
+	<set xpath="/Sounds/SoundDataNode[@name='chainsaw_reload']/AudioClip[1]/@ClipName">#@modfolder:Resources/LPTS.unity3d?chainsaw_reload</set>
+</configs>

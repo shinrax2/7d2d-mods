@@ -1,0 +1,13 @@
+<configs>
+	<remove xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/effect_group[@tiered='false']" />
+	<insertAfter xpath="/item_modifiers/item_modifier[@name='modGunMagazineExtender']/property[@name='Stacknumber']">
+		<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="0.5">
+				<requirement name="HoldingItemHasTags" tags="regMag" />
+			</passive_effect>
+			<passive_effect name="MagazineSize" operation="perc_add" value="4">
+				<requirement name="HoldingItemHasTags" tags="HRMag" />
+			</passive_effect>
+		</effect_group>
+	</insertAfter>
+</configs>

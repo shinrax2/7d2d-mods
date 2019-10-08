@@ -8,6 +8,9 @@
 			<passive_effect name="MagazineSize" operation="perc_add" value="4">
 				<requirement name="HoldingItemHasTags" tags="HRMag" />
 			</passive_effect>
+			<passive_effect name="RoundsPerMinute" operation="base_set" value="85">
+				<requirement name="HoldingItemHasTags" tags="HRMag" />
+			</passive_effect>
 		</effect_group>
 	</insertAfter>
 </configs>

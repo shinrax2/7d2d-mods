@@ -22,7 +22,7 @@
 				<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="10.1"/>
 				<property name="Class" value="ThrownWeapon"/>
 				<property name="Hitmask_override" value="Bullet"/>
-				<property name="Delay" value="1.2"/>
+				<property name="Delay" value="1.5"/>
 				<property name="Throw_strength_default" value="6"/>
 				<property name="Throw_strength_max" value="18"/>
 				<property name="Max_strain_time" value="1"/>
@@ -50,7 +50,7 @@
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
 			<property name="EconomicValue" value="5"/>
 			<property name="SellableToTrader" value="true"/>
-			<property name="UnlockedBy" value="perkJavelinMaster,meleeThrownSpearIronSchematic"/>
+			<property name="UnlockedBy" value="perkJavelinMaster,meleeThrownSpearIronSchematic-SX2"/>
 			<property name="Group" value="Ammo/Weapons"/>
 
 			<property class="Action1">
@@ -71,7 +71,7 @@
 			<property name="Material" value="MmeleeThrownSpearSteel"/><property name="Weight" value="6"/>
 			<property name="StickyMaterial" value="#Other/Items?Weapons/Melee/Spear/Materials/spearIron_sticky.mat"/>
 			<property name="EconomicValue" value="25"/>
-			<property name="UnlockedBy" value="meleeThrownSpearSteelSchematic"/>
+			<property name="UnlockedBy" value="meleeThrownSpearSteelSchematic-SX2"/>
 
 			<property class="Action1">
 				<requirement name="StatCompareCurrent" stat="Stamina" operation="GTE" value="20.1"/>
@@ -81,6 +81,26 @@
 				<passive_effect name="EntityDamage" operation="base_set" value="75"/><display_value name="dExDamageEntity" value="75"/>
 				<passive_effect name="BlockDamage" operation="base_set" value="15"/><display_value name="dExDamageBlock" value="15"/>
 				<passive_effect name="StaminaLoss" operation="base_set" value="20"/>
+			</effect_group>
+		</item>
+		<item name="meleeThrownSpearIronSchematic-SX2">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="meleeThrownSpearIron"/>
+			<property name="Unlocks" value="meleeThrownSpearIron-SX2"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeThrownSpearIron-SX2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+		<item name="meleeThrownSpearSteelSchematic-SX2">
+			<property name="Extends" value="schematicMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="meleeThrownSpearSteel"/>
+			<property name="Unlocks" value="meleeThrownSpearSteel-SX2"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="meleeThrownSpearSteel-SX2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
 			</effect_group>
 		</item>
 	</append>

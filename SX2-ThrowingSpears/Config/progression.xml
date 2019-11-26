@@ -1,0 +1,3 @@
+<configs>
+	<append xpath="/progression/perks/perk[@name='perkJavelinMaster']/effect_group[2]/passive_effect[@name='RecipeTagUnlocked']/@tags">,meleeThrownSpearIron-SX2</append>
+</configs>

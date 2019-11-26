@@ -3,5 +3,7 @@ meleeThrownSpearStone-SX2,items,Melee,New,Stone Throwing Spear
 meleeThrownSpearStone-SX2Desc,items,Melee,New,Throwing spear made of stone\nEntity Damage: 30\nBlock Damage: 5\nStamina Cost: 10
 meleeThrownSpearIron-SX2,items,Melee,New,Iron Throwing Spear
 meleeThrownSpearIron-SX2Desc,items,Melee,New,Throwing spear made of Iron\nEntity Damage: 50\nBlock Damage: 10\nStamina Cost: 15
-meleeThrownSpearSteel-SX2,items,Melee,New,Steel Throwing Spear
+meleeThrownSpearSteel-SX2,items,Melee,New,Iron Throwing Spear
 meleeThrownSpearSteel-SX2Desc,items,Melee,New,Throwing spear made of steel\nEntity Damage: 75\nBlock Damage: 15\nStamina Cost: 20
+meleeThrownSpearIronSchematic-SX2-SX2,items,Melee,New,Iron Throwing Spear Schematic
+meleeThrownSpearSteelSchematic-SX2-SX2,items,Melee,New,Steel Throwing Spear Schematic

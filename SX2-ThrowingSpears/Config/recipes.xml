@@ -1,0 +1,22 @@
+<configs>
+	<append xpath="/recipes">
+		<recipe name="meleeThrownSpearStone-SX2" count="1" tags="perkJavelinMaster">
+			<ingredient name="resourceRockSmall" count="1"/>
+			<ingredient name="resourceYuccaFibers" count="1"/>
+			<ingredient name="resourceWood" count="2"/>
+		</recipe>
+
+		<recipe name="meleeThrownSpearIron-SX2" count="1" tags="learnable,perkJavelinMaster">
+			<ingredient name="resourceForgedIron" count="1"/>
+			<ingredient name="resourceWood" count="4"/>
+			<ingredient name="resourceLeather" count="1"/>
+		</recipe>
+
+		<recipe name="meleeThrownSpearSteel-SX2" count="10" craft_area="workbench" tags="learnable,perkJavelinMaster">
+			<ingredient name="meleeThrownSpearSteelParts" count="1"/>
+			<ingredient name="resourceForgedSteel" count="10"/>
+			<ingredient name="resourceWood" count="60"/>
+			<ingredient name="resourceLeather" count="20"/>
+		</recipe>
+	</append>
+</configs>

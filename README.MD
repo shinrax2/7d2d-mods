@@ -2,22 +2,17 @@
 ---
 
 # SX2-2PPLU
-for alpha 17
+for alpha 17 & alpha 18
 
 grants 2 perkpoints per level up
 
 # SX2-TraderAlwaysOpen
-for alpha 17
+for alpha 17 & alpha 18
 
 trader is always open (technically closes 23:59 and opens 00:01)
 
-# SX2-AugerSawVolume
-for alpha 17
-
-reduces auger and chainsaw noises greatly
-
 # SX2-MoreAnimalSpawns
-for alpha 17
+for alpha 17 & alpha 18
 
 double the "friendlyAnimals"(boars,rabbits,chickens, wolfs, bears, deers) spawns
 
